@@ -1,3 +1,4 @@
+import { Figma, Git, Icon, Vector } from "@/components/layout"
 export const Profile = () => {
   return (
     <div className="w-[1280px] h-[360px] px-8 justify-start items-start gap-12 inline-flex">
@@ -16,7 +17,7 @@ export const Profile = () => {
         </div>
         <div className="w-[768px] h-14 flex-col justify-center items-start gap-2 inline-flex">
           <div className="self-stretch justify-start items-center gap-2 inline-flex">
-            <div className="w-6 h-6 relative" />
+            <div src={Vector} className="w-6 h-6 relative" />
             <div className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
               Ahmedabad, India
             </div>
@@ -33,7 +34,7 @@ export const Profile = () => {
         <div className="w-[768px] h-9 flex-col justify-start items-start gap-4 inline-flex">
           <div className="justify-start items-center gap-1 inline-flex">
             <div className="p-1.5 rounded-lg justify-center items-center flex">
-              <img src="" alt="github" />
+              <img className="w-6 h-6" src={<Git />} alt="Git" />
             </div>
             <div className="p-1.5 rounded-lg justify-center items-center flex">
               <img src="" alt="figma" />

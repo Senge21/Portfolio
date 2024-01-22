@@ -7,4 +7,7 @@ export * from "./Profile";
 export * from "./Skills";
 export * from "./Work";
 
-// export const Js = require("");
+export * from "../portfolioImg/profileImg/Figma.png";
+export * from "../portfolioImg/profileImg/Git.png";
+export * from "../portfolioImg/profileImg/Icon.png";
+export * from "../portfolioImg/profileImg/Vector.png";

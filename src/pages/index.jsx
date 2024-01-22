@@ -1,3 +1,4 @@
+
 import {
   Header,
   Profile,
@@ -12,14 +13,13 @@ import {
 export default function Home() {
   return (
     <div className="">
-      <div className="">
+      <div className="flex flex-col justify-center w-screen">
         <Header />
         <Profile />
         <About />
         <Skills />
         <Experience />
-
-        <Footer />
+        <GetInTouch />
       </div>
     </div>
   );
