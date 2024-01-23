@@ -6,7 +6,31 @@ export const Footer = () => {
           <div className="self-stretch h-5 flex-col justify-center items-center flex">
             <div className="justify-center items-center gap-2 inline-flex">
               <div className="w-4 h-4 relative" />
-              <div><span style="text-gray-600 text-sm font-normal font-['Inter'] leading-tight">2023 | </span><span style="text-gray-600 text-sm font-normal font-['Inter'] underline leading-tight">Designed</span><span style="text-gray-600 text-sm font-normal font-['Inter'] leading-tight"> and </span><span style="text-gray-600 text-sm font-normal font-['Inter'] underline leading-tight">coded</span><span style="text-gray-600 text-sm font-normal font-['Inter'] leading-tight"> with </span><span style="text-red-500 text-sm font-normal font-['Inter'] leading-tight">❤</span><span style="text-gray-600 text-sm font-normal font-['Inter'] leading-tight"> by Sagar Shah</span></div>
+              <div>
+                <span style="text-gray-600 text-sm font-normal font-['Inter'] leading-tight">
+                  2023 |{" "}
+                </span>
+                <span style="text-gray-600 text-sm font-normal font-['Inter'] underline leading-tight">
+                  Designed
+                </span>
+                <span style="text-gray-600 text-sm font-normal font-['Inter'] leading-tight">
+                  {" "}
+                  and{" "}
+                </span>
+                <span style="text-gray-600 text-sm font-normal font-['Inter'] underline leading-tight">
+                  coded
+                </span>
+                <span style="text-gray-600 text-sm font-normal font-['Inter'] leading-tight">
+                  {" "}
+                  with{" "}
+                </span>
+                <span style="text-red-500 text-sm font-normal font-['Inter'] leading-tight">
+                  ❤
+                </span>
+                <span style="text-gray-600 text-sm font-normal font-['Inter'] leading-tight">
+                  ️️ by Sagar Shah
+                </span>
+              </div>
             </div>
           </div>
         </div>

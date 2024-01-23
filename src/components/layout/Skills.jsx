@@ -1,6 +1,6 @@
 export const Skills = () => {
   return (
-    <div className="w-[1440px] h-[560px] px-20 py-24 bg-white flex-col justify-center items-center inline-flex">
+    <div className="w-full  h-[560px] px-20 py-24 bg-white flex-col justify-center items-center inline-flex">
       <div className="self-stretch h-[368px] px-8 flex-col justify-start items-start gap-12 flex">
         <div className="self-stretch h-[72px] flex-col justify-start items-start gap-4 flex">
           <div className="self-stretch h-7 flex-col justify-center items-center flex">
