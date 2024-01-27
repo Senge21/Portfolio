@@ -1,6 +1,9 @@
 export const About = () => {
   return (
-    <div className="w-full justify-center bg-[#f9fafb] h-[962px] flex py-24 px-20">
+    <div
+      id="About"
+      className="w-full justify-center bg-[#f9fafb] h-[962px] flex py-24 px-20"
+    >
       <div className="w-[1280px] h-[770px] px-[32px] gap-4 flex flex-col">
         <div className="flex justify-center mb-[48px]">
           <button className="py-[4px] px-[20px] rounded-[12px] bg-[#e5e7eb]  ">

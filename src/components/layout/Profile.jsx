@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import Figma from "./profileImg/Figma.png";
 export const Profile = () => {
   return (
     <div className="sm- w-full  h-[360px] px-8 justify-center  items-start gap-12 inline-flex">
@@ -19,7 +20,7 @@ export const Profile = () => {
         <div className="w-[768px] h-14 flex-col justify-center items-start gap-2 inline-flex">
           <div className="self-stretch justify-start items-center gap-2 inline-flex">
             <div className="w-6 h-6 flex-col justify-center items-center inline-flex">
-              <img src="" alt="Git" />
+              <Image width={36} height={36} src="/Vector.png" alt="Vector" />
             </div>
             <div className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
               Ahmedabad, India
@@ -35,14 +36,10 @@ export const Profile = () => {
           </div>
         </div>
         <div className="w-[768px] h-9 flex-col justify-start items-start gap-4 inline-flex">
-          <div className="justify-start items-center gap-1 inline-flex">
-            <div className="p-1.5 rounded-lg justify-center items-center flex"></div>
-            <div className="p-1.5 rounded-lg justify-center items-center flex">
-              <img src="Git" alt="figma" />
-            </div>
-            <div className="p-1.5 rounded-lg justify-center items-center flex">
-              <img src="" alt="twitter" />
-            </div>
+          <div className=" flex justify-start items-center gap-1 ">
+            <Image src="/Git.png" width={36} height={36} />
+            <img src={Figma} alt="" className="w-9 h-9c" />
+            <Image />
           </div>
         </div>
       </div>

@@ -1,6 +1,9 @@
 export const Work = () => {
   return (
-    <div className="w-[1440px] h-[1848px] px-20 py-24 bg-white flex-col justify-center items-center inline-flex">
+    <div
+      id="Work"
+      className="w-[1440px] h-[1848px] px-20 py-24 bg-white flex-col justify-center items-center inline-flex"
+    >
       <div className="self-stretch h-[1656px] px-8 flex-col justify-center items-center gap-12 flex">
         <div className="self-stretch h-[72px] flex-col justify-start items-start gap-4 flex">
           <div className="self-stretch h-7 flex-col justify-center items-center flex">

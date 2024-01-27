@@ -1,24 +1,57 @@
 import React from "react";
+import { Link } from "react-scroll";
 export const Header = () => {
   return (
     <div className="w-full h-[68px] bg-[#ffffff] py-[16px] px-[80px] *:group-[font-['Inter_Sans']  justify-center flex mx-auto">
-      <div className="flex justify-between w-[1280px] h-[36px] px-[32px]">
+      <div className="flex justify-between  w-[1280px] h-[36px] px-[32px]">
         <div className=" w-[96px] h-[36px] text-[#111827] font-[700]  text-[36px] text-center ">
           {"<SS/>"}
         </div>
         <div className="w-[554px] h-[36px] ">
           <ul className="flex gap-[24px] *:group[font-[500] text-sm/[50px] text-[#4b5563] text-[28px]] ">
             <li>
-              <a href="About">About</a>
+              <Link
+                to="About"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                About
+              </Link>
             </li>
             <li>
-              <a href="Work">Work</a>
+              <Link
+                to="Work"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Work
+              </Link>
             </li>
             <li>
-              <a href="Testimonials">Testimonials</a>
+              <Link
+                to="Testimonials"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Testimonails
+              </Link>
             </li>
             <li>
-              <a href="Contact">Contact</a>
+              <Link
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Contact
+              </Link>
             </li>
             <div className="flex gap-[16px] justify-center items-center">
               <div></div>

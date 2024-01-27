@@ -1,7 +1,10 @@
 export const GetInTouch = () => {
   return (
     <div>
-      <div className="w-full  h-[560px] px-20 py-24 bg-white flex-col justify-center items-center inline-flex">
+      <div
+        id="Contact"
+        className="w-full  h-[560px] px-20 py-24 bg-white flex-col justify-center items-center inline-flex"
+      >
         <div className="self-stretch h-[368px] px-8 flex-col justify-center items-center gap-12 flex">
           <div className="self-stretch h-[100px] flex-col justify-start items-start gap-4 flex">
             <div className="self-stretch h-7 flex-col justify-center items-center flex">
