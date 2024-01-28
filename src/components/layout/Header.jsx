@@ -3,11 +3,11 @@ import { Link } from "react-scroll";
 export const Header = () => {
   return (
     <div className="w-full h-[68px] bg-[#ffffff] py-[16px] px-[80px] *:group-[font-['Inter_Sans']  justify-center flex mx-auto">
-      <div className="flex justify-between  w-[1280px] h-[36px] px-[32px]">
+      <div className=" flex justify-between  w-[1280px] h-[36px] px-[32px]">
         <div className=" w-[96px] h-[36px] text-[#111827] font-[700]  text-[36px] text-center ">
           {"<SS/>"}
         </div>
-        <div className="w-[554px] h-[36px] ">
+        <div className=" w-[554px] h-[36px] ">
           <ul className="flex gap-[24px] *:group[font-[500] text-sm/[50px] text-[#4b5563] text-[28px]] ">
             <li>
               <Link

@@ -1,9 +1,8 @@
+import Image from "next/image";
+import upwork from "./portfolioImg/experienceImg/upwork.png";
 export const Experience = () => {
   return (
-    <div
-      id="Work"
-      className="w-full  h-[1140px] px-20 py-24 bg-gray-50 flex-col justify-center items-center inline-flex flex"
-    >
+    <div className="w-full  h-[1140px] px-20 py-24 bg-gray-50 flex-col justify-center items-center inline-flex flex">
       <div className="self-stretch h-[948px] px-8 flex-col justify-center items-center gap-12 flex">
         <div className="self-stretch h-[72px] flex-col justify-start items-start gap-4 flex">
           <div className="self-stretch h-7 flex-col justify-center items-center flex">
@@ -22,6 +21,7 @@ export const Experience = () => {
         <div className="h-72 p-8 bg-white rounded-xl shadow flex-col justify-start items-start flex">
           <div className="self-stretch justify-start items-start gap-12 inline-flex">
             <div className="grow shrink basis-0 flex-col justify-start items-start gap-3 inline-flex">
+              <Image src={upwork} className="w-[102px] h-[28px]" />
               <div className="w-[102px] h-7 relative">
                 <div className="w-[102px] h-7 left-0 top-0 absolute">
                   <div className="w-[101.03px] h-7 left-[0.48px] top-0 absolute"></div>
@@ -57,6 +57,7 @@ export const Experience = () => {
         <div className="h-[264px] p-8 bg-white rounded-xl shadow flex-col justify-start items-start flex">
           <div className="self-stretch justify-start items-start gap-12 inline-flex">
             <div className="grow shrink basis-0 flex-col justify-start items-start gap-3 inline-flex">
+              <Image src={upwork} className="w-[102px] h-[28px]" />
               <div className="w-[102px] h-7 relative">
                 <div className="w-[102px] h-7 left-0 top-0 absolute">
                   <div className="w-[101.03px] h-7 left-[0.48px] top-0 absolute"></div>
@@ -92,6 +93,7 @@ export const Experience = () => {
         <div className="h-[180px] p-8 bg-white rounded-xl shadow flex-col justify-start items-start flex">
           <div className="self-stretch justify-start items-start gap-12 inline-flex">
             <div className="grow shrink basis-0 flex-col justify-start items-start gap-3 inline-flex">
+              <Image src={upwork} className="w-[102px] h-[28px]" />{" "}
               <div className="w-[102px] h-7 relative">
                 <div className="w-[102px] h-7 left-0 top-0 absolute">
                   <div className="w-[101.03px] h-7 left-[0.48px] top-0 absolute"></div>

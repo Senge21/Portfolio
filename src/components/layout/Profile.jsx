@@ -1,10 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import Figma from "./profileImg/Figma.png";
+import vector from "./portfolioImg/profileImg/vector.png";
+import git from "./portfolioImg/profileImg/git.png";
+import figma from "./portfolioImg/profileImg/figma.png";
+import twitter from "./portfolioImg/profileImg/twitter.png";
 export const Profile = () => {
   return (
-    <div className="sm- w-full  h-[360px] px-8 justify-center  items-start gap-12 inline-flex">
-      <div className="self-stretch flex-col justify-center items-start gap-12 inline-flex">
+    <div className="sm- w-full  h-[360px] px-8 justify-center  items-start gap-12 inline-flex pt-8">
+      <div className=" flex-col justify-center items-start gap-12 inline-flex ">
         <div className="self-stretch h-[152px] flex-col justify-center items-start gap-2 flex">
           <div className="text-gray-900 text-6xl font-bold font-['Inter'] leading-[72px]">
             Hi, I’m Sagar 👋
@@ -20,7 +23,7 @@ export const Profile = () => {
         <div className="w-[768px] h-14 flex-col justify-center items-start gap-2 inline-flex">
           <div className="self-stretch justify-start items-center gap-2 inline-flex">
             <div className="w-6 h-6 flex-col justify-center items-center inline-flex">
-              <Image width={36} height={36} src="/Vector.png" alt="Vector" />
+              <Image width={24} height={24} src={vector} alt="Vector" />
             </div>
             <div className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
               Ahmedabad, India
@@ -36,10 +39,10 @@ export const Profile = () => {
           </div>
         </div>
         <div className="w-[768px] h-9 flex-col justify-start items-start gap-4 inline-flex">
-          <div className=" flex justify-start items-center gap-1 ">
-            <Image src="/Git.png" width={36} height={36} />
-            <img src={Figma} alt="" className="w-9 h-9c" />
-            <Image />
+          <div className=" flex justify-start items-center gap-4 ">
+            <Image width={24} height={24} src={git} alt="git" />
+            <Image width={24} height={24} src={twitter} alt="twitter" />
+            <Image width={24} height={24} src={figma} alt="figma" />
           </div>
         </div>
       </div>
