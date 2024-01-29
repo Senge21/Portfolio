@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Pic from "../layout/portfolioImg/about/Pic.png"
+
 export const About = () => {
   return (
     <div
@@ -11,16 +14,14 @@ export const About = () => {
           </button>
         </div>
         <div className="w-[1216px] h-[694px] flex gap-12 items-center justify-start ">
-          <div className="w-[584px] h-[694px] flex-col justify-start items-start">
-            <div className="relative h-[520px] w-[440px] ">
-              <div className="w-[400px] h-[480px] absolute top-[40px] bg-gray-200 border-8 border-gray-50"></div>
-              <img
-                className="w-[400px] h-[480px] absolute top-0 left-[40px] border-8 border-gray-50 "
-                src="https://s3-alpha-sig.figma.com/img/8781/bda6/7a25952db5724f48492cd455a6e81952?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iD776LocC9a2IKsEEOaYst01NN5Lo3uvEsPe-g-xHHCoZ3YH2nTx6vngudPrjvMx9V8fPVT4IK3s3nj1Myeef6xBPc9vfd3E4iP1c2fe7QC-nBR2k~YbfdlJNFiyDEEFAXF6TtkbM5EehR2t8RehwXWG5DL-QW2AgEX4WhHCUHTCwg8YVAk0fK5PiQ2zyyV9zL0bfPyOdcr7ihc1WFlz7Tdf-PKy6ukX3mjD0Vo2wuGgontjFSSetothS6hfcwSOXmbzezxEO4NmD29qL1pCYvp2iVoFU~lu0h6JaoLlT3hc0LVsjWRZdSiwGHT0XXpjzdYHAbrDM70dMS1aH~n-hw__"
-                alt=""
-              />
+          <div className="w-[584px] h-[694px] flex-col justify-start items-start inline-flex">
+            <div className="w-[440px] h-[520px] relative">
+              <div className="w-[400px] h-[480px] left-0 top-[40px] absolute bg-gray-200 border-8 border-gray-50" />
+              <Image src={Pic} className="w-[400px] h-[480px] left-10 top-0 absolute border-8 border-gray-50 " />
             </div>
           </div>
+
+
           <div className="flex w-[584px] h-[694px] items-start  gap-6 flex-col *:group-[text-[16px] text-sm-[24px] text-gray-600 font-[400]]:">
             <div>
               <p className=" text-[#111827] font-semibold text-3xl text-center">

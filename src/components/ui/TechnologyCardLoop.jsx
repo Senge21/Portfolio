@@ -86,22 +86,20 @@ const Techs = [
 
 export const TechnologyCardLoop = () => {
   return (
-    <>
+    <div className="  flex-wrap flex gap-[48px] max-w-[1216px] mx-auto">
       {Techs.map((el, i) => (
-        <div className=" flex  w-[1216px]  h-[248px]  justify-items-start items-start gap-6 ">
-          <div
-            key={i}
-            className="self-stretch flex-col justify-center flex w-[1216px]  items-center gap-2 "
-          >
-            <div className="w-16 h-16 relative">
-              <Image src={el.img} />
-            </div>
-            <div className="text-gray-600 text-lg font-normal font-['Inter'] leading-7">
-              {el.name}
-            </div>
+        <div
+          key={i}
+          className="pl self-stretch flex-col justify-center items-center gap-2"
+        >
+          <div className="w-16 h-16 relative">
+            <Image src={el.img} layout="fill" objectFit="contain" />
+          </div>
+          <div className="text-gray-600 text-lg font-normal font-['Inter'] leading-7 w-[102px] h-[28px]">
+            {el.name}
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };

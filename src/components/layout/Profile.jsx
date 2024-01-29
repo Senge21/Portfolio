@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import pic from "../layout/portfolioImg/profileImg/Pic.png"
 import vector from "./portfolioImg/profileImg/vector.png";
 import git from "./portfolioImg/profileImg/git.png";
 import figma from "./portfolioImg/profileImg/figma.png";
 import twitter from "./portfolioImg/profileImg/twitter.png";
+
 export const Profile = () => {
   return (
     <div className="sm- w-full  h-[360px] px-8 justify-center  items-start gap-12 inline-flex pt-8">
@@ -49,10 +51,7 @@ export const Profile = () => {
       <div className="w-[400px] h-[360px] flex-col justify-center items-end inline-flex">
         <div className="w-80 h-[360px] relative">
           <div className="w-[280px] h-80 left-[40px] top-[40px] absolute bg-gray-200 border-8 border-white" />
-          <img
-            className="w-[280px] h-80 left-0 top-0 absolute border-8 border-white"
-            src="https://s3-alpha-sig.figma.com/img/f85c/f455/11cd2ba02a83d564218d6500a134a91d?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J6ilx-NOb63~KzVYyZfxx4qzRN~gm9QHjip~sIpK9MTVSZsX~huwLpZqpJyqW7GDTT8lB8QtBCj5-2PtU-Ygp48aaoTUuruT2gkBXQL~lHchh7pKMdkHIJrb2oMYnvdAYQNxOMjjUIF8HDscGx5Nt7iw4F0WHx0HmiLM~STQEdaUIw0hp1E28oW5KSCJTY9dpgSECxgzNyTUNroqNwgsE5X4gYOS6SIFW~iIc98LskU-vU9DVPo3dEzu2N-2Fz4UiQZedr6UAGezp4AEFbGvN6RWj7EetJyu7prBfAxtS4Q0dAi36VtSyse6uAVnFGuXHQ9Y83-~6UcTO1YSVEzzGQ__"
-          />
+          <Image src={pic} className="w-[280px] left-0 top-0 absolute  h-[280px]   border-8 border-white" />
         </div>
       </div>
     </div>
