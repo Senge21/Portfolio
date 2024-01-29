@@ -51,7 +51,7 @@ export const Profile = () => {
       <div className="w-[400px] h-[360px] flex-col justify-center items-end inline-flex">
         <div className="w-80 h-[360px] relative">
           <div className="w-[280px] h-80 left-[40px] top-[40px] absolute bg-gray-200 border-8 border-white" />
-          <Image src={pic} className="w-[280px] left-0 top-0 absolute  h-[280px]   border-8 border-white" />
+          <Image src={pic} className="w-[280px] left-0 top-0 absolute  h-80   border-8 border-white" />
         </div>
       </div>
     </div>
