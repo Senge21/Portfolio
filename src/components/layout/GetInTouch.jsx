@@ -1,3 +1,10 @@
+import Image from "next/image";
+import clone from "./portfolioImg/getInTouchImg/Clone.png";
+import Icon from "./portfolioImg/getInTouchImg/Icon.png";
+import Message from "./portfolioImg/getInTouchImg/Message.png";
+import git from "./portfolioImg/profileImg/git.png";
+import figma from "./portfolioImg/profileImg/figma.png";
+import twitter from "./portfolioImg/profileImg/twitter.png";
 export const GetInTouch = () => {
   return (
     <div>
@@ -23,21 +30,29 @@ export const GetInTouch = () => {
           </div>
           <div className="flex-col justify-center items-center gap-4 flex">
             <div className="justify-center items-center gap-5 inline-flex">
-              <div className="w-8 h-8 relative" />
+              <div className="w-8 h-8 relative">
+                <Image src={Message} />
+              </div>{" "}
               <div className="text-center text-gray-900 text-4xl font-semibold font-['Inter'] leading-10">
                 reachsagarshah@gmail.com
               </div>
               <div className="p-1.5 rounded-lg justify-center items-center flex">
-                <div className="w-8 h-8 relative" />
+                <div className="w-8 h-8 relative">
+                  <Image src={clone} />
+                </div>
               </div>
             </div>
             <div className="justify-center items-center gap-5 inline-flex">
-              <div className="w-8 h-8 relative" />
+              <div className="w-8 h-8 relative">
+                <Image src={Icon} />
+              </div>
               <div className="text-center text-gray-900 text-4xl font-semibold font-['Inter'] leading-10">
                 +91 8980500565
               </div>
               <div className="p-1.5 rounded-lg justify-center items-center flex">
-                <div className="w-8 h-8 relative" />
+                <div className="w-8 h-8 relative">
+                  <Image src={clone} />
+                </div>
               </div>
             </div>
           </div>
@@ -49,13 +64,19 @@ export const GetInTouch = () => {
               <div className="self-stretch h-9 flex-col justify-center items-center gap-4 flex">
                 <div className="justify-start items-center gap-1 inline-flex">
                   <div className="p-1.5 rounded-lg justify-center items-center flex">
-                    <div className="w-6 h-6 relative" />
+                    <div className="w-6 h-6 relative">
+                      <Image src={git} />
+                    </div>
                   </div>
                   <div className="p-1.5 rounded-lg justify-center items-center flex">
-                    <div className="w-6 h-6 relative" />
+                    <div className="w-6 h-6 relative">
+                      <Image src={twitter} />
+                    </div>
                   </div>
                   <div className="p-1.5 rounded-lg justify-center items-center flex">
-                    <div className="w-6 h-6 relative" />
+                    <div className="w-6 h-6 relative">
+                      <Image src={figma} />
+                    </div>
                   </div>
                 </div>
               </div>

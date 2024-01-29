@@ -12,7 +12,7 @@ export const Profile = () => {
           <div className="text-gray-900 text-6xl font-bold font-['Inter'] leading-[72px]">
             Hi, I’m Sagar 👋
           </div>
-          <div className="w-[768px] text-gray-600 text-base font-normal font-['Inter'] leading-normal">
+          <div className="w-[768px] text-gray-600 text-base font-normal font-['Inter'] leading-normal flex">
             I'm a full stack developer (React.js & Node.js) with a focus on
             creating (and occasionally designing) exceptional digital
             experiences that are fast, accessible, visually appealing, and
