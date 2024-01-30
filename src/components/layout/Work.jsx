@@ -3,9 +3,9 @@ export const Work = () => {
   return (
     <div
       id="Testimonials"
-      className="w-[1440px] h-[1848px] px-20 py-24 bg-white flex-col justify-center items-center inline-flex"
+      className=" w-[1440px] h-[1848px] px-auto py-24 bg-white flex-col justify-center items-center inline-flex"
     >
-      <div className=" h-[1656px] px-8 flex-col justify-center items-center gap-12 flex">
+      <div className="px-auto h-[1656px] px-8 flex-col justify-center items-center gap-12 flex">
         <div className=" h-[72px] flex-col justify-start items-start gap-4 flex">
           <div className=" h-7 flex-col justify-center items-center flex">
             <div className="px-5 py-1 bg-gray-200 rounded-xl justify-center items-center inline-flex">
